@@ -1,0 +1,23 @@
+# Données : lourdes (~800 Mo) et en partie sous licence non redistribuable.
+# Seule la documentation est versionnée ; voir datasets/SOURCES.md pour les retrouver.
+datasets/*
+!datasets/SOURCES.md
+!datasets/SCHEMA.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Secrets et environnement
+.env
+.env.*
+
+# Système et éditeurs
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
